@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="Project1" Description="">
+  <Project Id="a38d88b5-8f7f-4eef-b2cb-cae91a3e855d" />
+  <Created Date="2024-12-19 14:03:51" Major="24" Minor="3" Build="785" OS="Microsoft Windows NT 10.0.22631.0" User="Hussain" Computer="LAPTOP-HTBD0GKU" />
+  <Controller Name="Controller1">
+    <ErrorEventSignals>
+      <ErrorEventTrigger Name="pmEvent_diTrigger" />
+      <ErrorSources Name="pmEvent_giErrorSource">
+        <Source Value="1" Name="Controller1" />
+        <Source Value="2" Name="T_ROB1" />
+        <Source Value="3" Name="InFeeder1" />
+        <Source Value="4" Name="OutFeeder1" />
+        <Source Value="5" Name="PalletFeeder1" />
+      </ErrorSources>
+      <ErrorMessages Name="pmEvent_giMessage" />
+    </ErrorEventSignals>
+  </Controller>
+</Project>

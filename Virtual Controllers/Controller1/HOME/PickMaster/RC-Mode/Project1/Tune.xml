@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <Created Date="2024-12-19 14:03:51" Major="24" Minor="3" Build="785" />
+  <TuneLimits>
+    <WorkAreaLimits>
+      <trans x_min="0" x_max="0" y_min="0" y_max="0" z_min="0" z_max="0" />
+      <Angle angle_x_min="0" angle_x_max="0" angle_y_min="0" angle_y_max="0" angle_z_min="0" angle_z_max="0" />
+    </WorkAreaLimits>
+    <RobotLimits>
+      <Speed v_tcp_min="100" v_tcp_max="100" v_ori_min="100" v_ori_max="100" />
+      <Acceleration accmax_min="100" accmax_max="100" />
+    </RobotLimits>
+    <ProductLimits>
+      <Size x_min="100" x_max="100" y_min="100" y_max="100" z_min="100" z_max="100" />
+      <Speed v_tcp_min="100" v_tcp_max="100" v_ori_min="100" v_ori_max="100" />
+      <Acceleration accmax_min="100" accmax_max="100" />
+      <Dwell PickTime_min="100" PickTime_max="100" PlaceTime_min="100" PlaceTime_max="100" />
+      <Activate PickActivation_min="0" PickActivation_max="0" PlaceActivation_min="0" PlaceActivation_max="0" />
+    </ProductLimits>
+  </TuneLimits>
+  <WorkAreas>
+    <WorkArea Id="0" Index="0" Name="PM_HOME" Guid="824f89c9-4542-4c6d-8d75-d2394c924827">
+      <trans x="0" y="0" z="0" />
+      <rot q1="1" q2="0" q3="0" q4="0" />
+      <trans_default x="0" y="0" z="0" />
+      <rot_default q1="1" q2="0" q3="0" q4="0" />
+    </WorkArea>
+    <WorkArea Id="1" Index="1" Name="InFeeder1" Guid="4b299c2b-0326-42f9-880b-26203f6d833c">
+      <trans x="0" y="0" z="0" />
+      <rot q1="1" q2="0" q3="0" q4="0" />
+      <trans_default x="0" y="0" z="0" />
+      <rot_default q1="1" q2="0" q3="0" q4="0" />
+    </WorkArea>
+    <WorkArea Id="2" Index="2" Name="OutFeeder1" Guid="081b0045-7d90-402c-a41a-05ee4f4aed6a">
+      <trans x="0" y="0" z="0" />
+      <rot q1="1" q2="0" q3="0" q4="0" />
+      <trans_default x="0" y="0" z="0" />
+      <rot_default q1="1" q2="0" q3="0" q4="0" />
+    </WorkArea>
+    <WorkArea Id="3" Index="3" Name="PalletFeeder1" Guid="f450dbdc-584e-4e57-b0ab-3fff9d44f94b">
+      <trans x="0" y="0" z="0" />
+      <rot q1="1" q2="0" q3="0" q4="0" />
+      <trans_default x="0" y="0" z="0" />
+      <rot_default q1="1" q2="0" q3="0" q4="0" />
+    </WorkArea>
+  </WorkAreas>
+  <Robots>
+    <Robot Index="0" Name="T_ROB1" Guid="aba9f6ba-7f06-405e-be09-94479525b77c">
+      <Speed v_tcp="10000" v_ori="720" />
+      <Acceleration accmax="100" />
+      <Speed_default v_tcp="10000" v_ori="720" />
+      <Acceleration_default accmax="100" />
+    </Robot>
+  </Robots>
+  <Products>
+    <Product Index="0" Id="0" Name="Box1" Guid="ea9e45d7-15ee-4881-a87c-799e8b0268b2">
+      <Size x="500" y="300" z="200" />
+      <Speed v_tcp="5000" v_ori="500" />
+      <Acceleration accmax="10" />
+      <Dwell PickTime="0.2" PlaceTime="0.2" />
+      <Activate PickActivation="0.1" PlaceActivation="0" />
+      <Size_default x="500" y="300" z="200" />
+      <Speed_default v_tcp="5000" v_ori="500" />
+      <Acceleration_default accmax="10" />
+      <Dwell_default PickTime="0.2" PlaceTime="0.2" />
+      <Activate_default PickActivation="0.1" PlaceActivation="0" />
+    </Product>
+    <Product Index="1" Id="1" Name="Pallet1" Guid="cb06d345-e476-41ff-8c46-f1dbdf514b4c">
+      <Size x="1200" y="1000" z="150" />
+      <Speed v_tcp="5000" v_ori="500" />
+      <Acceleration accmax="10" />
+      <Dwell PickTime="0.5" PlaceTime="0.5" />
+      <Activate PickActivation="0.1" PlaceActivation="0" />
+      <Size_default x="1200" y="1000" z="150" />
+      <Speed_default v_tcp="5000" v_ori="500" />
+      <Acceleration_default accmax="10" />
+      <Dwell_default PickTime="0.5" PlaceTime="0.5" />
+      <Activate_default PickActivation="0.1" PlaceActivation="0" />
+    </Product>
+  </Products>
+</Project>

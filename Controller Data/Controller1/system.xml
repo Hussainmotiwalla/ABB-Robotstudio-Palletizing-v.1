@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SystemProperties>
+  <SystemName>Controller1</SystemName>
+  <SerialNo>VIRTUAL_USE</SerialNo>
+  <UsedMedia>
+    <Media path="C:\Users\Hussain\AppData\Local\ABB Industrial IT\Robotics IT\RobotWare\RobotWare_6.08.1040" name="RobotWare" version="6.08.1040">
+    </Media>
+  </UsedMedia>
+  <ControlModule>
+    <Option descr="RobotWare Base">
+    </Option>
+    <Option descr="English">
+    </Option>
+    <Option descr="642-2 Palletizing PowerPac">
+    </Option>
+    <Option descr="616-1 PC Interface">
+    </Option>
+    <Option descr="617-1 FlexPendant Interface">
+    </Option>
+  </ControlModule>
+  <DriveModule>
+    <Name>Robot1</Name>
+    <Option descr="Drive System IRB 460/640/660/760/4600/66xx/6700">
+    </Option>
+    <Option descr="ADU-790A in position X3">
+    </Option>
+    <Option descr="ADU-790A in position Y3">
+    </Option>
+    <Option descr="ADU-790A in position Z3">
+    </Option>
+    <Option descr="Axis Calibration">
+    </Option>
+    <Option descr="IRB 660-180/3.15">
+    </Option>
+  </DriveModule>
+</SystemProperties>

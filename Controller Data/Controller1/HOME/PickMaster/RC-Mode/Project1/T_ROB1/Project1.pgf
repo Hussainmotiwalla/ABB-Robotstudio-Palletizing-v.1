@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Program>
+  <Module>PmMain.mod</Module>
+  <Module>PmUtility.mod</Module>
+</Program>

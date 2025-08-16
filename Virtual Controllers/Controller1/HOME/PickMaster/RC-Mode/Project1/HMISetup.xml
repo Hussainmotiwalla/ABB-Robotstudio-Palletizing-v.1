@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="Project1" Description="">
+  <Project Id="a38d88b5-8f7f-4eef-b2cb-cae91a3e855d" />
+  <Created Date="2024-12-19 14:03:51" Major="24" Minor="3" Build="785" OS="Microsoft Windows NT 10.0.22631.0" User="Hussain" Computer="LAPTOP-HTBD0GKU" />
+  <Controller Name="Controller1">
+    <ErrorEventSignals>
+      <ErrorEventTrigger>pmEvent_diTrigger</ErrorEventTrigger>
+      <ErrorSources>pmEvent_giErrorSource</ErrorSources>
+      <ErrorMessages>pmEvent_giMessage</ErrorMessages>
+    </ErrorEventSignals>
+  </Controller>
+  <RestartOptions Continue="true" RedoLastPick="true" RestartLayer="true" NextPallet="true" />
+  <Robots>
+    <Robot Name="T_ROB1" Index="0" Task="T_ROB1" LoadRapid="true">
+      <Rapid Name="Project1.pgf" />
+    </Robot>
+  </Robots>
+  <Workareas>
+    <Workarea Name="InFeeder1" Index="1" wobj="T_ROB1/pmInfeeder1_WObj" RobotIndex="0" Type="4" WaType="4">
+      <PosReqStrobe SignalName="pmInfeeder1_doPosReqTrig" SignalDescription="Position request trigger" />
+      <PosReqProdSelection SignalName="pmInfeeder1_goProdSel" SignalDescription="Product Position request selection" />
+      <PosReqFormSelection SignalName="pmInfeeder1_goFormSel" SignalDescription="Format Position request selection" />
+      <PosReqMasterStation SignalName="pmInfeeder1_goReqMaster" SignalDescription="Requesting master" />
+      <TgtGenStrobe SignalName="pmInfeeder1_diTgtGenTrig" SignalDescription="Target generation trigger" />
+      <TgtGenProdSelection SignalName="pmInfeeder1_giProdSel" SignalDescription="Selection product" />
+      <TgtGenFormSelection SignalName="pmInfeeder1_giFormSel" SignalDescription="Selection format" />
+      <TgtGenStartLayerSel SignalName="pmInfeeder1_giStartLayerCount" SignalDescription="Start layer count" />
+      <TgtGenStartProdSel SignalName="pmInfeeder1_giStartProdCount" SignalDescription="Start product count" />
+      <PosAvail SignalName="pmInfeeder1_doPosAvail" SignalDescription="Position available" />
+      <QueueIdle SignalName="pmInfeeder1_doQueueEmpty" SignalDescription="Queue empty" />
+      <BatchComplete SignalName="pmInfeeder1_doOpSetCompl" SignalDescription="Operation set complete" />
+      <ExecState SignalName="pmInfeeder1_goExecState" SignalDescription="Execution state" />
+      <HeightStateSig SignalName="pmInfeeder1_goHeightState" SignalDescription="Height state" />
+      <LayerCountSig SignalName="pmInfeeder1_goLayerCount" SignalDescription="Layer count" />
+      <ProductCountSig SignalName="pmInfeeder1_goProductCount" SignalDescription="Product count" />
+      <ProductSelectionSig SignalName="pmInfeeder1_goProduct" SignalDescription="Product signal" />
+      <FormatSelectionSig SignalName="pmInfeeder1_goFormat" SignalDescription="Format signal" />
+      <StopJob SignalName="" SignalDescription="Stop job" />
+      <BatchReinit SignalName="pmInfeeder1_diRedoSearch" SignalDescription="Redo search" />
+      <RobExe SignalName="" SignalDescription="Robot execution" />
+    </Workarea>
+    <Workarea Name="OutFeeder1" Index="2" wobj="T_ROB1/pmOutfeeder1_WObj" RobotIndex="0" Type="5" WaType="5">
+      <PosReqStrobe SignalName="pmOutfeeder1_doPosReqTrig" SignalDescription="Position request trigger" />
+      <PosReqProdSelection SignalName="pmOutfeeder1_goProdSel" SignalDescription="Product Position request selection" />
+      <PosReqFormSelection SignalName="pmOutfeeder1_goFormSel" SignalDescription="Format Position request selection" />
+      <PosReqMasterStation SignalName="pmOutfeeder1_goReqMaster" SignalDescription="Requesting master" />
+      <TgtGenStrobe SignalName="pmOutfeeder1_diTgtGenTrig" SignalDescription="Target generation trigger" />
+      <TgtGenProdSelection SignalName="pmOutfeeder1_giProdSel" SignalDescription="Selection product" />
+      <TgtGenFormSelection SignalName="pmOutfeeder1_giFormSel" SignalDescription="Selection format" />
+      <TgtGenStartLayerSel SignalName="pmOutfeeder1_giStartLayerCount" SignalDescription="Start layer count" />
+      <TgtGenStartProdSel SignalName="pmOutfeeder1_giStartProdCount" SignalDescription="Start product count" />
+      <PosAvail SignalName="pmOutfeeder1_doPosAvail" SignalDescription="Position available" />
+      <QueueIdle SignalName="pmOutfeeder1_doQueueEmpty" SignalDescription="Queue empty" />
+      <BatchComplete SignalName="pmOutfeeder1_doOpSetCompl" SignalDescription="Operation set complete" />
+      <ExecState SignalName="pmOutfeeder1_goExecState" SignalDescription="Execution state" />
+      <HeightStateSig SignalName="pmOutfeeder1_goHeightState" SignalDescription="Height state" />
+      <LayerCountSig SignalName="pmOutfeeder1_goLayerCount" SignalDescription="Layer count" />
+      <ProductCountSig SignalName="pmOutfeeder1_goProductCount" SignalDescription="Product count" />
+      <ProductSelectionSig SignalName="pmOutfeeder1_goProduct" SignalDescription="Product signal" />
+      <FormatSelectionSig SignalName="pmOutfeeder1_goFormat" SignalDescription="Format signal" />
+      <StopJob SignalName="pmOutfeeder1_diStopJob" SignalDescription="Stop job" />
+      <BatchReinit SignalName="pmOutfeeder1_diRedoSearch" SignalDescription="Redo search" />
+      <RobExe SignalName="" SignalDescription="Robot execution" />
+    </Workarea>
+    <Workarea Name="PalletFeeder1" Index="3" wobj="T_ROB1/pmPallet1_WObj" RobotIndex="0" Type="2" WaType="2">
+      <PosReqStrobe SignalName="pmPallet1_doPosReqTrig" SignalDescription="Position request trigger" />
+      <PosReqProdSelection SignalName="pmPallet1_goProdSel" SignalDescription="Product Position request selection" />
+      <PosReqFormSelection SignalName="pmPallet1_goFormSel" SignalDescription="Format Position request selection" />
+      <PosReqMasterStation SignalName="pmPallet1_goReqMaster" SignalDescription="Requesting master" />
+      <TgtGenStrobe SignalName="pmPallet1_diTgtGenTrig" SignalDescription="Target generation trigger" />
+      <TgtGenProdSelection SignalName="pmPallet1_giProdSel" SignalDescription="Selection product" />
+      <TgtGenFormSelection SignalName="pmPallet1_giFormSel" SignalDescription="Selection format" />
+      <TgtGenStartLayerSel SignalName="pmPallet1_giStartLayerCount" SignalDescription="Start layer count" />
+      <TgtGenStartProdSel SignalName="pmPallet1_giStartProdCount" SignalDescription="Start product count" />
+      <PosAvail SignalName="pmPallet1_doPosAvail" SignalDescription="Position available" />
+      <QueueIdle SignalName="pmPallet1_doQueueEmpty" SignalDescription="Queue empty" />
+      <BatchComplete SignalName="pmPallet1_doOpSetCompl" SignalDescription="Operation set complete" />
+      <ExecState SignalName="pmPallet1_goExecState" SignalDescription="Execution state" />
+      <HeightStateSig SignalName="pmPallet1_goHeightState" SignalDescription="Height state" />
+      <LayerCountSig SignalName="pmPallet1_goLayerCount" SignalDescription="Layer count" />
+      <ProductCountSig SignalName="pmPallet1_goProductCount" SignalDescription="Product count" />
+      <ProductSelectionSig SignalName="pmPallet1_goProduct" SignalDescription="Product signal" />
+      <FormatSelectionSig SignalName="pmPallet1_goFormat" SignalDescription="Format signal" />
+      <StopJob SignalName="" SignalDescription="Stop job" />
+      <BatchReinit SignalName="pmPallet1_diRedoSearch" SignalDescription="Redo search" />
+      <RobExe SignalName="" SignalDescription="Robot execution" />
+    </Workarea>
+  </Workareas>
+  <Tools>
+    <Tool Name="FlexGripper 2.0_Vacuum_Pallet" RobotIndex="0" GroupOutput="pmGripper1_goActivators">
+      <ToolConfigurations>
+        <ToolConfiguration Name="Config1" DefaultConf="true">
+          <Zone Name="Zone1">
+            <Activator Name="Act1" GroupStartIndex="0" GroupLength="1" Activate="0" Deactivate="1" Idle="-1" />
+          </Zone>
+          <Zone Name="Zone2">
+            <Activator Name="Act2" GroupStartIndex="1" GroupLength="1" Activate="0" Deactivate="1" Idle="-1" />
+          </Zone>
+          <Zone Name="Zone3">
+            <Activator Name="Act3" GroupStartIndex="2" GroupLength="1" Activate="0" Deactivate="1" Idle="-1" />
+          </Zone>
+          <Zone Name="Zone4">
+            <Activator Name="Act4" GroupStartIndex="3" GroupLength="1" Activate="0" Deactivate="1" Idle="-1" />
+          </Zone>
+          <Zone Name="Zone5">
+            <Activator Name="Act5" GroupStartIndex="4" GroupLength="1" Activate="0" Deactivate="1" Idle="-1" />
+          </Zone>
+          <Zone Name="Zone6">
+            <Activator Name="Act6" GroupStartIndex="5" GroupLength="1" Activate="0" Deactivate="1" Idle="-1" />
+          </Zone>
+          <Zone Name="Zone7">
+            <Activator Name="Act7" GroupStartIndex="6" GroupLength="1" Activate="0" Deactivate="1" Idle="-1" />
+          </Zone>
+          <Zone Name="Zone8">
+            <Activator Name="Act8" GroupStartIndex="7" GroupLength="1" Activate="0" Deactivate="1" Idle="-1" />
+          </Zone>
+          <Zone Name="Zone9">
+            <Activator Name="Act9" GroupStartIndex="8" GroupLength="1" Activate="0" Deactivate="1" Idle="-1" />
+          </Zone>
+          <Zone Name="Zone10">
+            <Activator Name="Act10" GroupStartIndex="9" GroupLength="1" Activate="0" Deactivate="1" Idle="-1" />
+          </Zone>
+        </ToolConfiguration>
+      </ToolConfigurations>
+    </Tool>
+  </Tools>
+  <Products>
+    <Product Index="0" Name="Box1" Type="0">
+      <Size x="500" y="300" z="200" />
+    </Product>
+    <Product Index="1" Name="Pallet1" Type="1">
+      <Size x="1200" y="1000" z="150" />
+    </Product>
+  </Products>
+  <OperationSets>
+    <OperationSet Id="0" Name="Pick Box1Group1Format1" Workarea="1" Type="Format" OperationType="Pick" />
+    <OperationSet Id="2" Name="Place PalletPattern11" Workarea="2" Type="Pattern" OperationType="Place" />
+    <OperationSet Id="1" Name="Pick Pallet1Stack1" Workarea="3" Type="Pattern" OperationType="Pick" />
+  </OperationSets>
+  <Flows>
+    <Flow Index="0" Name="Flow1" Description="" Priority="1">
+      <Master Index="2">
+        <Products>
+          <Product Name="Place PalletPattern11" Id="2" />
+        </Products>
+      </Master>
+      <Slaves>
+        <Slave Index="1" />
+        <Slave Index="3" />
+      </Slaves>
+    </Flow>
+  </Flows>
+</Project>
